@@ -13,7 +13,7 @@ def make_predictions(data: dict)->float:
             data['housing_median_age'],
             data['total_rooms'],
             data['total_bedrooms'],
-            data['populations'],
+            data['population'],
             data['households'],
             data['median_income']
         ]
@@ -28,7 +28,7 @@ def make_batch_predictions(data: List[dict]) -> np.array:
             x['housing_median_age'],
             x['total_rooms'],
             x['total_bedrooms'],
-            x['populations'],
+            x['population'],
             x['households'],
             x['median_income']
         ]
